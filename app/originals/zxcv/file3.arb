@@ -1,0 +1,22 @@
+{
+  "@@locale": "en",
+  "orderStatus": "{status, select, pending{Your order is being prepared} shipped{Your order is on its way} delivered{Your order has been delivered} other{Unknown order status}}",
+  "@orderStatus": {
+    "description": "Order status shown on the order details screen",
+    "placeholders": {
+      "status": {
+        "type": "String"
+      }
+    }
+  },
+  "deliveryDate": "Expected delivery: {date}",
+  "@deliveryDate": {
+    "placeholders": {
+      "date": {
+        "type": "DateTime",
+        "format": "yMMMd"
+      }
+    }
+  },
+  "networkError": "Something went wrong. Please check your connection and try again."
+}
