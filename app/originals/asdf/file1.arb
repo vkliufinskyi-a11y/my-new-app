@@ -1,0 +1,19 @@
+{
+  "@@locale": "en",
+  "appTitle": "Flower Shop",
+  "@appTitle": {
+    "description": "Title shown in the app bar"
+  },
+  "welcomeMessage": "Welcome back, {userName}!",
+  "@welcomeMessage": {
+    "description": "Greeting on the home screen",
+    "placeholders": {
+      "userName": {
+        "type": "String",
+        "example": "Anna"
+      }
+    }
+  },
+  "signInButton": "Sign in",
+  "signOutButton": "Sign out"
+}
