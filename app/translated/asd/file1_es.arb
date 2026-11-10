@@ -1,0 +1,19 @@
+{
+  "@@locale": "es",
+  "appTitle": "Tienda de flores",
+  "@appTitle": {
+    "description": "Título mostrado en la barra de la aplicación"
+  },
+  "welcomeMessage": "¡Bienvenido de nuevo, {userName}!",
+  "@welcomeMessage": {
+    "description": "Saludo en la pantalla de inicio",
+    "placeholders": {
+      "userName": {
+        "type": "Cadena",
+        "example": "Anna"
+      }
+    }
+  },
+  "signInButton": "Sign in",
+  "signOutButton": "Cerrar sesión"
+}
