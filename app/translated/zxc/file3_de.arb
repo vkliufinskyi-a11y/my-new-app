@@ -1,0 +1,22 @@
+{
+  "@@locale": "en",
+  "orderStatus": "{Status, auswählen, ausstehend{Ihre Bestellung wird vorbereitet} versendet{Ihre Bestellung ist unterwegs} geliefert{Ihre Bestellung wurde geliefert} andere{Unbekannter Bestellstatus}}",
+  "@orderStatus": {
+    "description": "Der Bestellstatus wird auf dem Bildschirm mit den Bestelldetails angezeigt",
+    "placeholders": {
+      "status": {
+        "type": "String"
+      }
+    }
+  },
+  "deliveryDate": "Erwartete Lieferung: {date}",
+  "@deliveryDate": {
+    "placeholders": {
+      "date": {
+        "type": "DatumUhrzeit",
+        "format": "yMMMd"
+      }
+    }
+  },
+  "networkError": "Irgendetwas ist schief gelaufen. Überprüfen Sie die Verbindung, und versuchen Sie es erneut."
+}

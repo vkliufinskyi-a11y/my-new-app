@@ -1,0 +1,19 @@
+{
+  "@@locale": "EN",
+  "appTitle": "Blumenladen",
+  "@appTitle": {
+    "description": "In der App-Leiste angezeigter Titel"
+  },
+  "welcomeMessage": "Willkommen zurück, {userName}!",
+  "@welcomeMessage": {
+    "description": "Begrüßung auf dem Startbildschirm",
+    "placeholders": {
+      "userName": {
+        "type": "String",
+        "example": "Anna"
+      }
+    }
+  },
+  "signInButton": "Anmelden",
+  "signOutButton": "Abmelden"
+}
