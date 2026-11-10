@@ -1,0 +1,27 @@
+{
+  "@@locale": "en",
+  "cartTitle": "Ihr Warenkorb",
+  "cartItemCount": "{Anzahl, Plural, =0{Ihr Warenkorb ist leer} =1{1 Artikel in Ihrem Warenkorb}{weitere{Anzahl} Artikel in Ihrem Warenkorb}}",
+  "@cartItemCount": {
+    "description": "Anzahl der Artikel im Warenkorb",
+    "placeholders": {
+      "count": {
+        "type": ".int"
+      }
+    }
+  },
+  "checkoutButton": "Zur Kasse gehen",
+  "totalPrice": "Gesamt: {price}",
+  "@totalPrice": {
+    "placeholders": {
+      "price": {
+        "type": "doppelt",
+        "format": "Währung",
+        "optionalParameters": {
+          "symbol": "€",
+          "decimalDigits": 2
+        }
+      }
+    }
+  }
+}
