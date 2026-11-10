@@ -1,0 +1,22 @@
+{
+  "@@locale": "en",
+  "orderStatus": "{status, select, pending{Tu pedido se está preparando} shipped{Tu pedido está en camino} delivered{Tu pedido se ha entregado} other{Estado del pedido desconocido}}",
+  "@orderStatus": {
+    "description": "Estado del pedido mostrado en la pantalla de detalles del pedido",
+    "placeholders": {
+      "status": {
+        "type": "String"
+      }
+    }
+  },
+  "deliveryDate": "Entrega esperada: {date}",
+  "@deliveryDate": {
+    "placeholders": {
+      "date": {
+        "type": "FechaHora",
+        "format": "yMMMd"
+      }
+    }
+  },
+  "networkError": "Algo salió mal. Compruebe su conexión e inténtelo de nuevo."
+}
